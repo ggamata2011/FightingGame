@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: ef587431e17c7ec468fe5e312f3158e5
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Cape.CapeBase_1.0_0_0
+    second: {fileID: 2100000, guid: 1fdbb9b636a36fb448974361004cfa22, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Cape.CapeGem_1.0_0_0
+    second: {fileID: 2100000, guid: fb61544ae83757a428fc4433829c8e8e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Cape.CapeMets_1.0_0_0
+    second: {fileID: 2100000, guid: 760801a9590063644b5d155564114089, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Cape.CapeRibbon_1.0_0_0
+    second: {fileID: 2100000, guid: 3ecc34430bcbb43449aea4a29d9ed86b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Cape.VisionRibbon_1.0_0_0
+    second: {fileID: 2100000, guid: 6b3cceb4c0d8d954a8eb3e223cfb50ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Hairband.Hairband_1.0_0_0
+    second: {fileID: 2100000, guid: 22628914309eef24fafd3f8ecc93dddb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Outlines.HairO_1.0_0_0
+    second: {fileID: 2100000, guid: 9c1fce4454488ce4e96a199c544b6f43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Tie.Tie_1.0_0_0
+    second: {fileID: 2100000, guid: ceef2d8673bb1e4498001d56341939fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Vision.Vision2_1.0_0_0
+    second: {fileID: 2100000, guid: 4539e9aedfdea9a4d99804a8e0f4e011, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_+Vision.Vision_1.0_0_0
+    second: {fileID: 2100000, guid: db84d3daa08733042a222d2039c2f3cd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_-Eye Stars.EyeStars_1.0_0_0
+    second: {fileID: 2100000, guid: ac6ba40eda355fb4f8a0070aa30d8234, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_BodyBase_1.0_0_0
+    second: {fileID: 2100000, guid: f494033eeb2617f47aab075063594864, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_Boots_1.0_0_0
+    second: {fileID: 2100000, guid: 6393b8443b4b28a43b4d9f11e436c649, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_Face_1.0_0_0
+    second: {fileID: 2100000, guid: 36fa5ad0bbde9114b9029c50e3f8f20d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_Hair_1.0_0_0
+    second: {fileID: 2100000, guid: 81d25971fef8f774bb866ec4dec3ba55, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_Hands_1.0_0_0
+    second: {fileID: 2100000, guid: 9b6e94b527ce66945ac7d356304f919f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_Iris_1.0_0_0
+    second: {fileID: 2100000, guid: ef8e664e4e9d99149aadaa008705684a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_MouthInn_1.0_0_0
+    second: {fileID: 2100000, guid: 1e6304b66b22a004ab41cfc966dc7b1c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 10_SuitMetals_1.0_0_0
+    second: {fileID: 2100000, guid: a7362de5ed88d4d4480bee3ee0fb93a0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21_+Cape.Cape1BF_1.0_0_0
+    second: {fileID: 2100000, guid: e993ac9145b41b444922c01aa03fc645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21_+Cape.Cape1_1.0_0_0
+    second: {fileID: 2100000, guid: 08ec4219db39c764b8802dff4ae12661, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21_+Cape.Cape3_1.0_0_0
+    second: {fileID: 2100000, guid: d74d0b3fbdc537743bcf81e93aad5b3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 21_+Cape.Cape4_1.0_0_0
+    second: {fileID: 2100000, guid: 26fd37484f59066468f99a895535cff0, type: 2}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
