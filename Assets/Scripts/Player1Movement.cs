@@ -34,7 +34,6 @@ public class Player1Movement : MonoBehaviour
         }
         
 
-
         if(Input.GetKeyDown(KeyCode.Space))
         {
             transform.Translate(Vector3.up * Time.deltaTime * JumpHeight);
