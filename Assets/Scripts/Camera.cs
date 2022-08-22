@@ -13,7 +13,7 @@ public class Camera : MonoBehaviour
 
     void Start()
     {
-       
+        transform.position = player1.transform.position + offset;
     }
 
     // Update is called once per frame
@@ -26,9 +26,16 @@ public class Camera : MonoBehaviour
     
     Vector3 GetMidoint(Vector3 P1, Vector3 P2, Vector3 Offset)
     {
+        //Instantiate Midpoint Variable
         Vector3 MidPoint = new Vector3(0, 0, 0);
-        MidPoint = P1 + offset;
+
+        //Set Midpoint currently as our default camera angle
+        MidPoint = transform.position;
+
+        //Offset z position to get midpoint between two players
         MidPoint.z = ((P1.z + P2.z) / 2.0f);
+
+
         return MidPoint;
     }
     

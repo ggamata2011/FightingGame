@@ -12,10 +12,13 @@ public class Player1Movement : MonoBehaviour
     private Vector3 LeftBoundary = new Vector3(1.808f, 0.368f, 16.18076f);
     private Vector3 RightBoundary = new Vector3(1.808f, 0.368f, 6.939383f);
 
+    private Rigidbody ApplyForceTo;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Get RigidBody Component
+        ApplyForceTo = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -34,9 +37,10 @@ public class Player1Movement : MonoBehaviour
         }
         
 
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetKeyDown(KeyCode.W))
         {
-            transform.Translate(Vector3.up * Time.deltaTime * JumpHeight);
+            ApplyForceTo.AddForce(Vector3.up * 700,ForceMode.Impulse);
+            
         }
 
     }

@@ -13,11 +13,14 @@ public class Player2Movement: MonoBehaviour
     private Vector3 LeftBoundary = new Vector3(1.808f, 0.368f, 16.18076f);
     private Vector3 RightBoundary = new Vector3(1.808f, 0.368f, 6.939383f);
 
+    private Rigidbody ApplyForceTo;
+
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Get RigidBody Component
+        ApplyForceTo = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -29,19 +32,20 @@ public class Player2Movement: MonoBehaviour
         if (CheckBound(LeftBoundary, RightBoundary, transform.position))
         {
             //Move Player Forward 
-            transform.Translate(Vector3.forward * Time.deltaTime * MovementSpeed * HorizontalMovement);
+            transform.Translate(Vector3.forward * Time.deltaTime * MovementSpeed * HorizontalMovement*(-1));
         }
         else if (HorizontalMovement >= 0)
         {
-            transform.Translate(Vector3.forward * Time.deltaTime * MovementSpeed * HorizontalMovement);
+            transform.Translate(Vector3.forward * Time.deltaTime * MovementSpeed * HorizontalMovement*(-1));
         }
 
 
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            transform.Translate(Vector3.up * Time.deltaTime * JumpHeight);
-        }
+         if (Input.GetKeyDown(KeyCode.I))
+         {
+              ApplyForceTo.AddForce(Vector3.up * 700,ForceMode.Impulse);
+         }
+        
     }
 
 
