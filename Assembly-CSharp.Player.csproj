@@ -59,7 +59,7 @@
     <Compile Include="Assets\Scripts\Camera.cs" />
     <Compile Include="Assets\Scripts\Player2Movement.cs" />
     <Compile Include="Assets\Scripts\Player1Movement.cs" />
-    <Compile Include="Assets\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\HealthBar.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

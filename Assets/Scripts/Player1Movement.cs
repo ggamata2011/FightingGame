@@ -20,12 +20,14 @@ public class Player1Movement : MonoBehaviour
    
 
     private Rigidbody ApplyForceTo;
+    private CapsuleCollider CharacterBox;
 
     // Start is called before the first frame update
     void Start()
     {
         //Get RigidBody Component
         ApplyForceTo = GetComponent<Rigidbody>();
+        CharacterBox = GetComponent<CapsuleCollider>();
 
         //Set Max Health of Player Character
         PlayerHealth = MAXHEALTH;

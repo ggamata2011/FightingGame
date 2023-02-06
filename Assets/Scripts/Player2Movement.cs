@@ -15,12 +15,28 @@ public class Player2Movement: MonoBehaviour
 
     private Rigidbody ApplyForceTo;
 
+    private CapsuleCollider CharacterBox;
+
+
+
+    //Health Variables
+    public int MAXHEALTH = 1000;
+    public int PlayerHealth;
+
+    public HealthBar P2HealthBar;
+
 
     // Start is called before the first frame update
     void Start()
     {
         //Get RigidBody Component
         ApplyForceTo = GetComponent<Rigidbody>();
+
+        CharacterBox = GetComponent<CapsuleCollider>();
+
+        //Set Max Health of Player Character
+        PlayerHealth = MAXHEALTH;
+        P2HealthBar.MaxHealth(MAXHEALTH);
     }
 
     // Update is called once per frame
@@ -39,9 +55,15 @@ public class Player2Movement: MonoBehaviour
             transform.Translate(Vector3.forward * Time.deltaTime * MovementSpeed * HorizontalMovement*(-1));
         }
 
+        //Test Function for taking Damage and chaning the health bar
+        if (Input.GetKeyDown(KeyCode.J))
+        {
+            TakeDamage(45);
+        }
 
 
-         if (Input.GetKeyDown(KeyCode.I))
+        // Jump Button 
+        if (Input.GetKeyDown(KeyCode.I))
          {
               ApplyForceTo.AddForce(Vector3.up * 700,ForceMode.Impulse);
          }
@@ -55,5 +77,11 @@ public class Player2Movement: MonoBehaviour
         //placeholder return for checking boundaries
         return (position.z <= leftbound.z) && (position.z >= rightbound.z);
 
+    }
+
+    void TakeDamage(int dmg)
+    {
+        PlayerHealth = PlayerHealth - dmg;
+        P2HealthBar.SetHealth(PlayerHealth);
     }
 }
